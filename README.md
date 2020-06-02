@@ -1,2 +1,2 @@
-# SfdcManfiestToCsv
-Converts Sfdc Manfiest file (package.xml) to csv format. Blazor Wasm project
+# SfdcManifestToCsv
+Converts Sfdc Manifest file (package.xml) to csv format. Blazor Wasm project
