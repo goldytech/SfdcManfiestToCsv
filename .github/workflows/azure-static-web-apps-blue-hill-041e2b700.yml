@@ -23,8 +23,7 @@ jobs:
         dotnet-version: 3.1.201
 
     - name: Build App
-      run: cd SfdcManfiestToCsv/src/SfdcManifestToCsv
-      run: dotnet publish -c Release -o published
+      run: dotnet publish -c Release -o published src/SfdcManifestToCsv/SfdcManifestToCsv.sln
 
     - name: Build And Deploy
       id: builddeploy
