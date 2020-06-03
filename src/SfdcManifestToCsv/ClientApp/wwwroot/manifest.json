@@ -1,6 +1,6 @@
 {
-  "name": "ClientApp",
-  "short_name": "ClientApp",
+  "name": "Sfdc Manifest Converter",
+  "short_name": "Sfdc Manifest Converter",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

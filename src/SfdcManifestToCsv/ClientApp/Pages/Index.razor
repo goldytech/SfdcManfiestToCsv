@@ -1,7 +1,16 @@
 ﻿@page "/"
+@inherits IndexBase
+@using W8lessLabs.Blazor.LocalFiles
 
-<h1>Hello, world!</h1>
+<h1>Convert sfdc manifest (package.xml) file into csv format</h1>
 
-Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+
+
+
+
+<FileSelect @ref="BlazorFileSelect" Accept=".xml" FilesSelected="FilesSelectedHandler" IsMultiple="false"  ></FileSelect>
+<button @onclick="@SelectFile" class="btn-outline-info">Select file</button>
+<br>
+<div class="@CssClass" role="alert">@Message</div>
+

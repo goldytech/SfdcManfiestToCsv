@@ -5,3 +5,8 @@
 /src/SfdcManifestToCsv/ClientApp/obj
 /src/SfdcManifestToCsv/.vs/SfdcManifestToCsv/DesignTimeBuild
 /published
+/src/SfdcManifestToCsv/ClientApp/bin/Release/netstandard2.1
+/src/SfdcManifestToCsv/ClientApp.Domain/obj/Debug/netstandard2.0
+/src/SfdcManifestToCsv/ClientApp.Domain/obj
+/src/SfdcManifestToCsv/ClientApp.Domain/bin/Debug/netstandard2.0
+/src/SfdcManifestToCsv/SfdcManifestToCsv.sln.DotSettings.user
